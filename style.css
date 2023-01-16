@@ -9,9 +9,27 @@ body {
   background: rgba(217, 205, 247, 1);
   
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   color: rgba(39, 26, 69, 1);
   gap: 30px;
+}
+
+#me {
+  font-size: 15px;
+  text-align: center;
+  
+  position: relative;
+  z-index: 1;
+  bottom: 100px;
+}
+
+#me a {
+  color: rgba(39, 26, 69, 1);
+}
+
+#all {
+  display: flex;
+  flex-direction: row;
 }
 
 #left {
